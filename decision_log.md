@@ -26,3 +26,7 @@ Every non-obvious design choice made throughout the project is recorded here chr
 | 20 | 2026-09-10 | Few-shot classifier exemplars drawn strictly from grounding corpus | Prevents golden set contamination, ensuring reported intent accuracy reflects genuine held-out performance. |
 | 21 | 2026-09-10 | Zero-temperature + JSON MIME type enforcement with regex fallback | Ensures deterministic structured output parsing, falling back to `OTHER_GENERAL` on malformed responses. |
 | 22 | 2026-09-10 | Query hash disk caching in `classification_cache.json` | Avoids burning Gemini daily request quota on identical tweets during repeated local testing and debugging. |
+| 23 | 2026-09-10 | In-memory FAISS with vectorized NumPy cosine similarity fallback | Ensures 100% portability across environments while delivering sub-5ms retrieval over 4,000+ vectors. |
+| 24 | 2026-09-10 | Intent-conditioned similarity boosting (+0.15 bonus) in retrieval | Biases retrieval toward same-intent resolutions while preserving semantic flexibility when intent confidence is borderline. |
+| 25 | 2026-09-10 | Strict anti-hallucination prompt guardrails in reply drafter | Explicitly forbids inventing unauthorized financial concessions, refund amounts, or unverified delivery guarantees. |
+| 26 | 2026-09-10 | Query + context hash caching for reply drafts (`draft_cache.json`) | Protects Gemini free-tier quota by caching drafted outputs, enabling fast reproducible evaluation runs. |
