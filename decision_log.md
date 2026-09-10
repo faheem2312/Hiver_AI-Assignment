@@ -18,3 +18,5 @@ Every non-obvious design choice made throughout the project is recorded here chr
 | 12 | 2026-09-10 | Fixed 8-intent Enum in `src/intents.py` as single source of truth | Prevents string label drift across classifier, retrieval booster, and evaluation metrics; easily imported across all modules. |
 | 13 | 2026-09-10 | Local Sentence-Transformers with TF-IDF fallback for cluster discovery | Guarantees zero API quota burn during exploratory unsupervised clustering and runs in seconds on local CPU. |
 | 14 | 2026-09-10 | Policy routing metadata embedded directly in Intent Enum | Codifies business boundaries (`default_action`, `is_high_risk`) so self-service vs. human escalation logic remains transparent and auditable. |
+| 15 | 2026-09-10 | Stratified 200-sample Golden Set with fixed seed (42) | Ensures balanced statistical power across all 8 problem domains while respecting Gemini free-tier daily quotas during eval runs. |
+| 16 | 2026-09-10 | Strict physical isolation of held-out set from grounding corpus | Excludes the 200 golden items from `amazon_grounding_corpus.csv` (4,800 items) to prevent retrieval data leakage and artificial hit-rate inflation. |
