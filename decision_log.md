@@ -20,3 +20,6 @@ Every non-obvious design choice made throughout the project is recorded here chr
 | 14 | 2026-09-10 | Policy routing metadata embedded directly in Intent Enum | Codifies business boundaries (`default_action`, `is_high_risk`) so self-service vs. human escalation logic remains transparent and auditable. |
 | 15 | 2026-09-10 | Stratified 200-sample Golden Set with fixed seed (42) | Ensures balanced statistical power across all 8 problem domains while respecting Gemini free-tier daily quotas during eval runs. |
 | 16 | 2026-09-10 | Strict physical isolation of held-out set from grounding corpus | Excludes the 200 golden items from `amazon_grounding_corpus.csv` (4,800 items) to prevent retrieval data leakage and artificial hit-rate inflation. |
+| 17 | 2026-09-10 | Trivial baseline: majority intent + 100% escalation | Establishes the floor: tests whether an AI agent actually reduces human escalation without collapsing accuracy. |
+| 18 | 2026-09-10 | Simple baseline: regex keyword matching + static FAQ templates | Benchmarks against standard rule-based chatbots to quantify the exact marginal gain of LLM intent reasoning & RAG. |
+| 19 | 2026-09-10 | Asymmetric escalation cost metric (`5*FN + 1*FP`) | False Auto-Handles (ignoring fraud, legal, theft) incur catastrophic churn/risk compared to harmless false escalations. |
