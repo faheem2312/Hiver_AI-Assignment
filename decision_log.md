@@ -12,3 +12,6 @@ Every non-obvious design choice made throughout the project is recorded here chr
 | 6 | 2026-09-09 | Plain Python + in-memory FAISS/NumPy (no LangChain / LlamaIndex) | Guarantees code readability, zero abstraction bloat, and easy live debugging during interviews. |
 | 7 | 2026-09-09 | Project directory placed on Desktop (`Desktop/hiver-ai-agent`) | Explicit user preference for direct accessibility and manual Git commit/push control. |
 | 8 | 2026-09-09 | Support flexible `GEMINI_MODEL` in `.env` | Allows swapping seamlessly between `gemini-3.1-flash` (higher reasoning) and `gemini-3.1-flash-lite` (higher RPD for full eval runs). |
+| 9 | 2026-09-10 | Canned response filter in `src/data_prep.py` (`is_informative_resolution`) | Pure "DM us" tweets contain zero factual guidance; excluding them keeps the retrieval corpus informative and prevents the agent from generating trivial brush-offs. |
+| 10 | 2026-09-10 | Parent-child thread reconstruction via `in_response_to_tweet_id` | Flat Twitter feeds must be converted into customer inquiry + brand resolution pairs to enable grounded RAG. |
+| 11 | 2026-09-10 | Chunked ingest & cached 5,000 thread subsample (`amazon_threads_subsample.csv`) | Bypasses the 2.3GB dataset bottleneck, allowing the entire pipeline and eval harness to reproduce in <15 minutes. |
