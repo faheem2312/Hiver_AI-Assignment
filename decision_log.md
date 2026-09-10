@@ -23,3 +23,6 @@ Every non-obvious design choice made throughout the project is recorded here chr
 | 17 | 2026-09-10 | Trivial baseline: majority intent + 100% escalation | Establishes the floor: tests whether an AI agent actually reduces human escalation without collapsing accuracy. |
 | 18 | 2026-09-10 | Simple baseline: regex keyword matching + static FAQ templates | Benchmarks against standard rule-based chatbots to quantify the exact marginal gain of LLM intent reasoning & RAG. |
 | 19 | 2026-09-10 | Asymmetric escalation cost metric (`5*FN + 1*FP`) | False Auto-Handles (ignoring fraud, legal, theft) incur catastrophic churn/risk compared to harmless false escalations. |
+| 20 | 2026-09-10 | Few-shot classifier exemplars drawn strictly from grounding corpus | Prevents golden set contamination, ensuring reported intent accuracy reflects genuine held-out performance. |
+| 21 | 2026-09-10 | Zero-temperature + JSON MIME type enforcement with regex fallback | Ensures deterministic structured output parsing, falling back to `OTHER_GENERAL` on malformed responses. |
+| 22 | 2026-09-10 | Query hash disk caching in `classification_cache.json` | Avoids burning Gemini daily request quota on identical tweets during repeated local testing and debugging. |

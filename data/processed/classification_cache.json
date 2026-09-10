@@ -1,0 +1,8 @@
+{
+  "74cb9d0486103da2d96721c0b75f74f9": {
+    "intent": "ORDER_TRACKING_DELAY",
+    "confidence": 0.99,
+    "reasoning": "Customer is reporting a package marked as delivered that has not been received, which falls under missing delivery inquiries.",
+    "cached": false
+  }
+}
