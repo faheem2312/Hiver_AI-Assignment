@@ -4,5 +4,11 @@
     "confidence": 0.99,
     "reasoning": "Customer is reporting a package marked as delivered that has not been received, which falls under missing delivery inquiries.",
     "cached": false
+  },
+  "d10faf93606137acd354d7a6a2861e9e": {
+    "intent": "REFUND_RETURN_INQUIRY",
+    "confidence": 0.99,
+    "reasoning": "The customer is inquiring about the timeline for a refund after completing a return drop-off.",
+    "cached": false
   }
 }

@@ -30,3 +30,6 @@ Every non-obvious design choice made throughout the project is recorded here chr
 | 24 | 2026-09-10 | Intent-conditioned similarity boosting (+0.15 bonus) in retrieval | Biases retrieval toward same-intent resolutions while preserving semantic flexibility when intent confidence is borderline. |
 | 25 | 2026-09-10 | Strict anti-hallucination prompt guardrails in reply drafter | Explicitly forbids inventing unauthorized financial concessions, refund amounts, or unverified delivery guarantees. |
 | 26 | 2026-09-10 | Query + context hash caching for reply drafts (`draft_cache.json`) | Protects Gemini free-tier quota by caching drafted outputs, enabling fast reproducible evaluation runs. |
+| 27 | 2026-09-12 | Hierarchical escalation: deterministic safety rules first, LLM fallback second | Catches critical risks (legal, crime, property damage, claims >$100) instantly with 100% auditability, reserving LLM calls for borderline ambiguity. |
+| 28 | 2026-09-12 | Mandatory human routing for account security & crisis intents | Identity verification and 2FA credentials can never be conducted securely over public Twitter; forces human specialist handoff. |
+| 29 | 2026-09-12 | Unified pipeline response schema with latency instrumentation | Ensures end-to-end auditability and enables the evaluation harness to compare pipeline components side-by-side against baselines. |
