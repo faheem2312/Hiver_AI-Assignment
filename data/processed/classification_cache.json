@@ -10,5 +10,149 @@
     "confidence": 0.99,
     "reasoning": "The customer is inquiring about the timeline for a refund after completing a return drop-off.",
     "cached": false
+  },
+  "bc40ac887a72b72c3d6e137f45f9f150": {
+    "intent": "ACCOUNT_LOGIN_SECURITY",
+    "confidence": 0.99,
+    "reasoning": "Customer is reporting unauthorized account activity and potential security breach regarding password change.",
+    "cached": false
+  },
+  "42316ad82209ef3cf06c86428786d731": {
+    "intent": "ACCOUNT_LOGIN_SECURITY",
+    "confidence": 0.99,
+    "reasoning": "Customer is unable to access their account due to failure in receiving the OTP verification code.",
+    "cached": false
+  },
+  "e965bb59bb2013e901e987d908ef8a9b": {
+    "intent": "ORDER_TRACKING_DELAY",
+    "confidence": 0.99,
+    "reasoning": "The customer is reporting a late delivery and requesting an update on a package that has been stuck in 'out for delivery' status.",
+    "cached": false
+  },
+  "b747c715304c0322657798ae904c71d4": {
+    "intent": "DAMAGED_WRONG_ITEM",
+    "confidence": 1.0,
+    "reasoning": "The customer is reporting that a delivered item arrived broken and shattered.",
+    "cached": false
+  },
+  "a64b5398958905850349951055654643": {
+    "intent": "PRODUCT_TECH_SUPPORT",
+    "confidence": 0.99,
+    "reasoning": "The customer is reporting a technical malfunction with their Fire Stick device, specifically a frozen screen and unresponsive remote.",
+    "cached": false
+  },
+  "9fcacadab78064a398ac917fbc8c2b66": {
+    "intent": "ESCALATION_HIGH_RISK",
+    "confidence": 1.0,
+    "reasoning": "The customer reports significant property damage caused by a delivery driver and explicitly mentions filing a police report and legal action.",
+    "cached": false
+  },
+  "adcddc8dc8b897bfc5711096bbb42f36": {
+    "intent": "DAMAGED_WRONG_ITEM",
+    "confidence": 0.99,
+    "reasoning": "Customer is reporting a product received in a damaged condition (torn pages).",
+    "cached": false
+  },
+  "1fae07ea42508eee4729e9dd08785e86": {
+    "intent": "REFUND_RETURN_INQUIRY",
+    "confidence": 0.99,
+    "reasoning": "Customer is asking about return eligibility and the 30-day return window policy.",
+    "cached": false
+  },
+  "6b14b2723899929c6c00f0a3c8cc7ebc": {
+    "intent": "ORDER_TRACKING_DELAY",
+    "confidence": 0.99,
+    "reasoning": "The customer is inquiring about the status of a package that is significantly past its estimated delivery date.",
+    "cached": false
+  },
+  "4e9b85d3068b2796b759604929d28353": {
+    "intent": "ESCALATION_HIGH_RISK",
+    "confidence": 0.99,
+    "reasoning": "The report involves a high-value item theft (> $100) and an explicit demand for immediate human supervisor intervention, indicating high customer friction.",
+    "cached": false
+  },
+  "0ba346c6e902bb1a5249e8304a10d612": {
+    "intent": "ORDER_TRACKING_DELAY",
+    "confidence": 0.99,
+    "reasoning": "The customer is inquiring about a shipment that has been stuck in transit for several days, which falls under delivery delays.",
+    "cached": false
+  },
+  "0ca403a4fe40a71cb12945713f8b8a63": {
+    "intent": "PRODUCT_TECH_SUPPORT",
+    "confidence": 0.99,
+    "reasoning": "Customer is reporting a technical malfunction with an Echo device and seeking troubleshooting assistance.",
+    "cached": false
+  },
+  "737394c9711171560d99896d84d856c8": {
+    "intent": "ORDER_TRACKING_DELAY",
+    "confidence": 0.99,
+    "reasoning": "The customer is reporting a late delivery and requesting an update on a package that is stuck in 'out for delivery' status.",
+    "cached": false
+  },
+  "d411aa7d102f61e1d2b70a5ed8712421": {
+    "intent": "ACCOUNT_LOGIN_SECURITY",
+    "confidence": 0.99,
+    "reasoning": "Customer is explicitly stating they are locked out of their account and requesting assistance to regain access.",
+    "cached": false
+  },
+  "2415a5b328bf5a722a21b7a7909af38e": {
+    "intent": "ORDER_TRACKING_DELAY",
+    "confidence": 0.95,
+    "reasoning": "Customer is inquiring about a delay in their Prime delivery timeline compared to the guaranteed shipping speed.",
+    "cached": false
+  },
+  "67bcd188315c5774b3e6a0b576800229": {
+    "intent": "REFUND_RETURN_INQUIRY",
+    "confidence": 0.99,
+    "reasoning": "Customer is asking about return eligibility and the 30-day return window policy.",
+    "cached": false
+  },
+  "ca69a2b79ff8f09e8418bdf72954df65": {
+    "intent": "PRIME_MEMBERSHIP_BILLING",
+    "confidence": 0.99,
+    "reasoning": "Customer is disputing an unauthorized Prime auto-renewal charge and requesting a cancellation and refund.",
+    "cached": false
+  },
+  "ca68f19f4e9d0bd0babd4b0e41852b40": {
+    "intent": "DAMAGED_WRONG_ITEM",
+    "confidence": 0.99,
+    "reasoning": "Customer reported receiving an incorrect item instead of the product they ordered.",
+    "cached": false
+  },
+  "60a208c761ce3330c923d5ab89694771": {
+    "intent": "ORDER_TRACKING_DELAY",
+    "confidence": 0.97,
+    "reasoning": "Customer is reporting a package marked as delivered that has not been received, which falls under missing delivery inquiries.",
+    "cached": false
+  },
+  "84331444847d162d00c59355f0171f79": {
+    "intent": "PRIME_MEMBERSHIP_BILLING",
+    "confidence": 0.98,
+    "reasoning": "Customer is reporting a billing discrepancy regarding a Prime Video subscription charge.",
+    "cached": false
+  },
+  "2ff7ddb5e3314085e829e8f35b69cd78": {
+    "intent": "ESCALATION_HIGH_RISK",
+    "confidence": 0.99,
+    "reasoning": "The report involves a high-value item theft (> $100) and an explicit demand for immediate human supervisor intervention.",
+    "cached": false
+  },
+  "91677cd754fbd8b739d043bcb1587833": {
+    "intent": "REFUND_RETURN_INQUIRY",
+    "confidence": 0.99,
+    "reasoning": "Customer is inquiring about the status of a refund for a returned item.",
+    "cached": false
+  },
+  "11a6a0456d56f07fb00e88df37742f53": {
+    "intent": "REFUND_RETURN_INQUIRY",
+    "confidence": 0.99,
+    "reasoning": "Customer is inquiring about the status of a refund after completing a return drop-off.",
+    "cached": false
+  },
+  "caa6eeb1622504635fefe924c03bef70": {
+    "intent": "ACCOUNT_LOGIN_SECURITY",
+    "confidence": 0.99,
+    "reasoning": "Customer is explicitly stating they are locked out of their account and requesting assistance to regain access.",
+    "cached": false
   }
 }
