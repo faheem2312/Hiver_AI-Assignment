@@ -36,3 +36,4 @@ Every non-obvious design choice made throughout the project is recorded here chr
 | 30 | 2026-09-13 | Multi-dimensional LLM judge rubric (Groundedness, Correctness, Tone, Safety) | BLEU/ROUGE fail to measure real conversational policy adherence; structured rubric measures factual fidelity and business risk. |
 | 31 | 2026-09-13 | Stratified sample for LLM judge (N=30) + disk caching | Provides robust statistical estimation of generation quality while keeping total daily calls well within free-tier limits. |
 | 32 | 2026-09-13 | Unified benchmark runner (`eval/run_eval.py`) with comparison export | Enables graders to reproduce all headline metrics and side-by-side baseline comparisons in a single CLI command in <15 minutes. |
+| 33 | 2026-09-13 | Automated failure mode extractor (`eval/failure_analysis.py`) | Surfaces verbatim failure examples with root-cause hypotheses to directly substantiate the mandatory failure analysis report section. |
