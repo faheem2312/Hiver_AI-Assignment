@@ -1,4 +1,139 @@
 {
+  "80ea9c762475ded88bf59b0f94e0453c": {
+    "groundedness": 5.0,
+    "correctness": 5.0,
+    "tone_and_empathy": 5.0,
+    "resolution_safety": 5.0,
+    "overall_score": 5.0,
+    "reasoning": "The agent provides a professional, empathetic response that directly addresses the customer's frustration with carrier communication. By directing the user to a secure link for further investigation, the agent follows established brand resolution patterns while maintaining security and policy boundaries.",
+    "cached": false
+  },
+  "2a55cec22354d29de30af6f2a6548252": {
+    "groundedness": 5.0,
+    "correctness": 5.0,
+    "tone_and_empathy": 5.0,
+    "resolution_safety": 5.0,
+    "overall_score": 5.0,
+    "reasoning": "The agent provides clear, actionable steps that directly address the customer's navigation issue within the app. The tone is empathetic and professional, and the response adheres to standard support protocols without making unauthorized promises.",
+    "cached": false
+  },
+  "318de750c48a7328fbffc161adf24bbc": {
+    "groundedness": 4.0,
+    "correctness": 2.0,
+    "tone_and_empathy": 4.0,
+    "resolution_safety": 5.0,
+    "overall_score": 3.75,
+    "reasoning": "The reply is polite and safe, but it fails to address the specific issue of misdelivered parcels caused by a previous owner's address conflict. It provides generic self-service links rather than actionable advice on how to resolve the address/delivery error, making it less effective than the historical resolutions provided.",
+    "cached": false
+  },
+  "ce70fa9b3a25377904e7c3580fcf79a8": {
+    "groundedness": 5.0,
+    "correctness": 5.0,
+    "tone_and_empathy": 5.0,
+    "resolution_safety": 5.0,
+    "overall_score": 5.0,
+    "reasoning": "The agent provides a professional, empathetic response that aligns perfectly with historical resolution patterns by directing the customer to a secure support channel. The reply is concise, avoids making unauthorized promises, and correctly routes the customer to resolve the specific issue with their gift card.",
+    "cached": false
+  },
+  "b30eeed7b3a445deb7d3ea66851ba88f": {
+    "groundedness": 5.0,
+    "correctness": 5.0,
+    "tone_and_empathy": 5.0,
+    "resolution_safety": 5.0,
+    "overall_score": 5.0,
+    "reasoning": "The agent's response is perfectly aligned with historical brand resolutions by directing the customer to a secure link and warning against sharing private information. The tone is professional and empathetic, and the response safely routes the customer to the appropriate support channel without making unauthorized promises.",
+    "cached": false
+  },
+  "be01bf75ef8068e6525825fa3e289411": {
+    "groundedness": 5.0,
+    "correctness": 4.0,
+    "tone_and_empathy": 5.0,
+    "resolution_safety": 5.0,
+    "overall_score": 4.75,
+    "reasoning": "The reply is highly grounded in historical resolutions and maintains a professional, empathetic tone while prioritizing user privacy. It is safe and correct, though it could be slightly improved by including a direct link to the help portal for a more actionable resolution path.",
+    "cached": false
+  },
+  "1447b6c0e76c6db7e6eca9d1ea4c9781": {
+    "groundedness": 5.0,
+    "correctness": 5.0,
+    "tone_and_empathy": 5.0,
+    "resolution_safety": 5.0,
+    "overall_score": 5.0,
+    "reasoning": "The agent appropriately acknowledges the customer's positive feedback while maintaining a professional and helpful tone. The response is safe, grounded in standard support practices, and correctly directs the customer to reach out if further assistance is needed.",
+    "cached": false
+  },
+  "f7e10c72aaeeb0c54d929c240e94abba": {
+    "groundedness": 5.0,
+    "correctness": 5.0,
+    "tone_and_empathy": 5.0,
+    "resolution_safety": 5.0,
+    "overall_score": 5.0,
+    "reasoning": "The reply is perfectly grounded in the provided historical resolutions, specifically mirroring the instruction to follow up via email. It addresses the customer's request for escalation by directing them to the appropriate internal team while maintaining a professional, empathetic tone.",
+    "cached": false
+  },
+  "95802be5892edfc19b7f86cbde43fc67": {
+    "groundedness": 5.0,
+    "correctness": 5.0,
+    "tone_and_empathy": 5.0,
+    "resolution_safety": 5.0,
+    "overall_score": 5.0,
+    "reasoning": "The agent correctly identifies the limitation of Twitter support regarding order access and provides a secure, official link for further assistance. The tone is professional and empathetic, effectively addressing the customer's frustration while adhering to established brand safety protocols.",
+    "cached": false
+  },
+  "32ba86809260917c20f26eb967357d71": {
+    "groundedness": 5.0,
+    "correctness": 5.0,
+    "tone_and_empathy": 5.0,
+    "resolution_safety": 5.0,
+    "overall_score": 5.0,
+    "reasoning": "The agent provides a professional, empathetic response that directly addresses the customer's confusion by providing a secure, verified link for further assistance. The reply is concise, adheres to established brand resolution patterns, and maintains high safety standards by routing the user to official support channels.",
+    "cached": false
+  },
+  "471d6f9850a7cd2443af0f38bc9c5d2b": {
+    "groundedness": 5.0,
+    "correctness": 5.0,
+    "tone_and_empathy": 5.0,
+    "resolution_safety": 5.0,
+    "overall_score": 5.0,
+    "reasoning": "The agent's response is perfectly aligned with historical brand resolutions by escalating the issue through a secure link rather than requesting sensitive information publicly. The tone is empathetic and professional, and the response correctly identifies the need for an internal investigation without making unauthorized promises.",
+    "cached": false
+  },
+  "3e535fb6ed8f9a820f0dce655cf9fdbf": {
+    "groundedness": 5.0,
+    "correctness": 5.0,
+    "tone_and_empathy": 5.0,
+    "resolution_safety": 5.0,
+    "overall_score": 5.0,
+    "reasoning": "The agent provides an accurate, policy-compliant answer that directly addresses the user's question about device limits. The tone is professional and helpful, and the inclusion of a relevant self-service link makes the response highly actionable.",
+    "cached": false
+  },
+  "dbbfa84a7f71309680b55de7bdcd5c48": {
+    "groundedness": 5.0,
+    "correctness": 5.0,
+    "tone_and_empathy": 5.0,
+    "resolution_safety": 5.0,
+    "overall_score": 5.0,
+    "reasoning": "The agent correctly identified the need for a sign-in bypass link, which aligns perfectly with the provided historical resolutions. The tone is professional and empathetic, and the response safely directs the user to a secure channel without requesting sensitive information publicly.",
+    "cached": false
+  },
+  "5058bcd60dc66e7bc6d3e57ab47a870c": {
+    "groundedness": 5.0,
+    "correctness": 5.0,
+    "tone_and_empathy": 5.0,
+    "resolution_safety": 5.0,
+    "overall_score": 5.0,
+    "reasoning": "The agent's response is perfectly aligned with historical brand resolutions, providing a secure link for private information while correctly advising the customer not to share sensitive details publicly. The tone is professional and empathetic, effectively addressing the customer's frustration while maintaining safety protocols.",
+    "cached": false
+  },
+  "fdef3bc876ab93ec910c1654472980a8": {
+    "groundedness": 5.0,
+    "correctness": 5.0,
+    "tone_and_empathy": 5.0,
+    "resolution_safety": 5.0,
+    "overall_score": 5.0,
+    "reasoning": "The agent provides a helpful, grounded link that aligns with historical resolutions for account access issues. The tone is empathetic and professional, and the response safely directs the customer to a secure channel without requesting sensitive information publicly.",
+    "cached": false
+  },
   "d78ae9cc7f17f76c641e65c09f971d38": {
     "groundedness": 5.0,
     "correctness": 5.0,
@@ -87,123 +222,6 @@
     "resolution_safety": 5.0,
     "overall_score": 5.0,
     "reasoning": "The reply is accurate, concise, and adheres strictly to standard Amazon return policy guidelines. It provides the customer with a clear, actionable path to verify their specific order status without making unauthorized promises.",
-    "cached": false
-  },
-  "a39818254998f7bdf8e4a5af8a7dd442": {
-    "groundedness": 5.0,
-    "correctness": 5.0,
-    "tone_and_empathy": 5.0,
-    "resolution_safety": 5.0,
-    "overall_score": 5.0,
-    "reasoning": "The agent's response is perfectly aligned with established brand protocols for security-related inquiries. It provides immediate, actionable steps to secure the account while maintaining a professional and helpful tone.",
-    "cached": false
-  },
-  "157cc8b73c4cdb7d91a91fcd5abef349": {
-    "groundedness": 4.0,
-    "correctness": 5.0,
-    "tone_and_empathy": 5.0,
-    "resolution_safety": 5.0,
-    "overall_score": 4.75,
-    "reasoning": "The reply is highly effective as it provides the correct security link while offering a secure channel (DM) for further assistance. It maintains a professional, empathetic tone and adheres to safety protocols by not requesting sensitive information in the public tweet.",
-    "cached": false
-  },
-  "5c658d38587f5de8a353e760db970a80": {
-    "groundedness": 5.0,
-    "correctness": 5.0,
-    "tone_and_empathy": 5.0,
-    "resolution_safety": 5.0,
-    "overall_score": 5.0,
-    "reasoning": "The agent's response is perfectly aligned with established brand resolutions, providing clear, actionable self-service steps while maintaining an empathetic tone. It correctly directs the customer to the appropriate portal and offers a secure channel for further assistance without compromising privacy or policy.",
-    "cached": false
-  },
-  "31b5873fee106e8de02dd517909c58dc": {
-    "groundedness": 5.0,
-    "correctness": 5.0,
-    "tone_and_empathy": 5.0,
-    "resolution_safety": 5.0,
-    "overall_score": 5.0,
-    "reasoning": "The agent's reply perfectly mirrors the established brand resolution, providing clear, actionable instructions while maintaining an empathetic tone. It correctly addresses the safety concern regarding broken glass and directs the customer to the appropriate self-service portal without any policy violations.",
-    "cached": false
-  },
-  "93dd4be56463b89d9907286cf1c315a3": {
-    "groundedness": 5.0,
-    "correctness": 5.0,
-    "tone_and_empathy": 5.0,
-    "resolution_safety": 5.0,
-    "overall_score": 5.0,
-    "reasoning": "The agent's response is perfectly aligned with historical brand resolutions and provides accurate, actionable steps for the customer. The tone is professional and concise, adhering to Twitter best practices while maintaining safety and policy compliance.",
-    "cached": false
-  },
-  "39f9086c57d0c7741ce96bfdd96df151": {
-    "groundedness": 5.0,
-    "correctness": 5.0,
-    "tone_and_empathy": 5.0,
-    "resolution_safety": 5.0,
-    "overall_score": 5.0,
-    "reasoning": "The agent's reply is perfectly aligned with the provided historical brand resolutions and follows standard security protocols for high-value theft claims. The tone is empathetic and professional, and the request to move the conversation to DMs ensures customer privacy while routing the issue to the appropriate specialist.",
-    "cached": false
-  },
-  "4841e547ccfb7edf7681bdeaac236bf4": {
-    "groundedness": 5.0,
-    "correctness": 5.0,
-    "tone_and_empathy": 5.0,
-    "resolution_safety": 5.0,
-    "overall_score": 5.0,
-    "reasoning": "The agent's response is perfectly aligned with historical brand resolutions and follows standard security protocols by moving the conversation to a private channel. It is concise, professional, and addresses the customer's issue by requesting the necessary information to investigate the refund status.",
-    "cached": false
-  },
-  "c92f290b078d92229cef19c1d29c67d4": {
-    "groundedness": 5.0,
-    "correctness": 5.0,
-    "tone_and_empathy": 5.0,
-    "resolution_safety": 5.0,
-    "overall_score": 5.0,
-    "reasoning": "The agent's response is perfectly aligned with historical brand resolutions and provides accurate, actionable troubleshooting steps for the reported issue. The tone is professional, concise, and adheres to safety standards by avoiding any request for sensitive information.",
-    "cached": false
-  },
-  "ce96b46ada0fdd097bc082c6957bb55f": {
-    "groundedness": 5.0,
-    "correctness": 5.0,
-    "tone_and_empathy": 5.0,
-    "resolution_safety": 5.0,
-    "overall_score": 5.0,
-    "reasoning": "The agent's response is well-aligned with historical resolutions and provides clear, actionable steps for the customer. The tone is professional and empathetic, and the request for a DM ensures security while directing the user to self-service options.",
-    "cached": false
-  },
-  "9a8d5d538d5e4a73afed24f463f47c2e": {
-    "groundedness": 5.0,
-    "correctness": 5.0,
-    "tone_and_empathy": 5.0,
-    "resolution_safety": 5.0,
-    "overall_score": 5.0,
-    "reasoning": "The agent's reply is perfectly aligned with the provided historical resolutions and accurately explains the policy regarding Prime shipping timelines. The tone is professional, concise, and adheres to brand standards while maintaining complete safety and accuracy.",
-    "cached": false
-  },
-  "c34555a689b5c0fc1463d9e881ee2845": {
-    "groundedness": 5.0,
-    "correctness": 5.0,
-    "tone_and_empathy": 5.0,
-    "resolution_safety": 5.0,
-    "overall_score": 5.0,
-    "reasoning": "The agent correctly identifies the need for private account verification before addressing a billing issue, which is the standard and safe procedure for @AmazonHelp. The tone is professional and empathetic, and the response avoids making unauthorized promises while providing a clear path to resolution.",
-    "cached": false
-  },
-  "f74b58f5d9cec468f3b6ebf17a206c6c": {
-    "groundedness": 5.0,
-    "correctness": 5.0,
-    "tone_and_empathy": 5.0,
-    "resolution_safety": 5.0,
-    "overall_score": 5.0,
-    "reasoning": "The agent's response is perfectly aligned with historical brand resolutions and effectively routes the high-stakes issue to the appropriate claims team. The tone is professional and empathetic while maintaining necessary security boundaries by moving the conversation to DMs.",
-    "cached": false
-  },
-  "4ab27cbae243b4d2d01b25edd2e46118": {
-    "groundedness": 5.0,
-    "correctness": 5.0,
-    "tone_and_empathy": 5.0,
-    "resolution_safety": 5.0,
-    "overall_score": 5.0,
-    "reasoning": "The agent's response is perfectly aligned with the provided historical resolutions and accurately addresses the customer's technical issue. The tone is professional, concise, and adheres to all safety and policy guidelines.",
     "cached": false
   }
 }

@@ -1,158 +1,296 @@
 {
-  "74cb9d0486103da2d96721c0b75f74f9": {
+  "867902e3e5c875843801910d79843826": {
     "intent": "ORDER_TRACKING_DELAY",
-    "confidence": 0.99,
-    "reasoning": "Customer is reporting a package marked as delivered that has not been received, which falls under missing delivery inquiries.",
+    "confidence": 0.85,
+    "reasoning": "The customer is expressing frustration regarding inconsistent communication and status updates from the carrier regarding their package delivery.",
     "cached": false
   },
-  "d10faf93606137acd354d7a6a2861e9e": {
-    "intent": "REFUND_RETURN_INQUIRY",
-    "confidence": 0.99,
-    "reasoning": "The customer is inquiring about the timeline for a refund after completing a return drop-off.",
-    "cached": false
-  },
-  "bc40ac887a72b72c3d6e137f45f9f150": {
-    "intent": "ACCOUNT_LOGIN_SECURITY",
-    "confidence": 0.99,
-    "reasoning": "Customer is reporting unauthorized account activity and potential security breach regarding password change.",
-    "cached": false
-  },
-  "42316ad82209ef3cf06c86428786d731": {
-    "intent": "ACCOUNT_LOGIN_SECURITY",
-    "confidence": 0.99,
-    "reasoning": "Customer is unable to access their account due to failure in receiving the OTP verification code.",
-    "cached": false
-  },
-  "e965bb59bb2013e901e987d908ef8a9b": {
-    "intent": "ORDER_TRACKING_DELAY",
-    "confidence": 0.99,
-    "reasoning": "The customer is reporting a late delivery and requesting an update on a package that has been stuck in 'out for delivery' status.",
-    "cached": false
-  },
-  "b747c715304c0322657798ae904c71d4": {
+  "dfa73ad0cd04d6d8c91e9ee413fa4afe": {
     "intent": "DAMAGED_WRONG_ITEM",
-    "confidence": 1.0,
-    "reasoning": "The customer is reporting that a delivered item arrived broken and shattered.",
+    "confidence": 0.92,
+    "reasoning": "The customer is reporting a damaged package and is seeking assistance with a reorder process due to the system blocking a repeat purchase of the same item.",
     "cached": false
   },
-  "a64b5398958905850349951055654643": {
-    "intent": "PRODUCT_TECH_SUPPORT",
-    "confidence": 0.99,
-    "reasoning": "The customer is reporting a technical malfunction with their Fire Stick device, specifically a frozen screen and unresponsive remote.",
+  "5504292c5daced7d4d48637010b7cf46": {
+    "intent": "ORDER_TRACKING_DELAY",
+    "confidence": 0.92,
+    "reasoning": "The customer is inquiring about the status and courier information for an order that has not been updated.",
     "cached": false
   },
-  "9fcacadab78064a398ac917fbc8c2b66": {
-    "intent": "ESCALATION_HIGH_RISK",
-    "confidence": 1.0,
-    "reasoning": "The customer reports significant property damage caused by a delivery driver and explicitly mentions filing a police report and legal action.",
+  "0227ddf079e0491f37d24d6c425e5cde": {
+    "intent": "OTHER_GENERAL",
+    "confidence": 0.85,
+    "reasoning": "The customer is asking for navigation assistance on the app/website to report an issue, which does not specify the nature of the problem (e.g., damage vs. missing) and is primarily a request for technical guidance on using the platform.",
     "cached": false
   },
-  "adcddc8dc8b897bfc5711096bbb42f36": {
-    "intent": "DAMAGED_WRONG_ITEM",
-    "confidence": 0.99,
-    "reasoning": "Customer is reporting a product received in a damaged condition (torn pages).",
-    "cached": false
-  },
-  "1fae07ea42508eee4729e9dd08785e86": {
+  "fb26cf29efca4815e9c22ed504ec775a": {
     "intent": "REFUND_RETURN_INQUIRY",
-    "confidence": 0.99,
-    "reasoning": "Customer is asking about return eligibility and the 30-day return window policy.",
+    "confidence": 0.92,
+    "reasoning": "The customer is expressing frustration specifically regarding their inability to successfully initiate a return request.",
     "cached": false
   },
-  "6b14b2723899929c6c00f0a3c8cc7ebc": {
-    "intent": "ORDER_TRACKING_DELAY",
-    "confidence": 0.99,
-    "reasoning": "The customer is inquiring about the status of a package that is significantly past its estimated delivery date.",
-    "cached": false
-  },
-  "4e9b85d3068b2796b759604929d28353": {
+  "077f2fd3960fd8fd538c3562896c4cd4": {
     "intent": "ESCALATION_HIGH_RISK",
-    "confidence": 0.99,
-    "reasoning": "The report involves a high-value item theft (> $100) and an explicit demand for immediate human supervisor intervention, indicating high customer friction.",
+    "confidence": 0.92,
+    "reasoning": "The customer is expressing significant concern regarding privacy and data security in the context of a fraud investigation, which represents high-level customer friction and potential regulatory/legal sensitivity.",
     "cached": false
   },
-  "0ba346c6e902bb1a5249e8304a10d612": {
-    "intent": "ORDER_TRACKING_DELAY",
-    "confidence": 0.99,
-    "reasoning": "The customer is inquiring about a shipment that has been stuck in transit for several days, which falls under delivery delays.",
-    "cached": false
-  },
-  "0ca403a4fe40a71cb12945713f8b8a63": {
+  "6e03ceba56d9e9adcf6d1fc10639c7b2": {
     "intent": "PRODUCT_TECH_SUPPORT",
-    "confidence": 0.99,
-    "reasoning": "Customer is reporting a technical malfunction with an Echo device and seeking troubleshooting assistance.",
+    "confidence": 0.85,
+    "reasoning": "The customer mentions ongoing technical issues with their Fire Stick, which is a device-specific troubleshooting concern, despite the secondary comment about Prime content availability.",
     "cached": false
   },
-  "737394c9711171560d99896d84d856c8": {
+  "0320a691d5b85b00980ffebea14e69a5": {
     "intent": "ORDER_TRACKING_DELAY",
-    "confidence": 0.99,
-    "reasoning": "The customer is reporting a late delivery and requesting an update on a package that is stuck in 'out for delivery' status.",
+    "confidence": 0.92,
+    "reasoning": "The customer is reporting recurring delivery issues where packages are being misdelivered to the wrong address due to previous occupant data.",
     "cached": false
   },
-  "d411aa7d102f61e1d2b70a5ed8712421": {
+  "1286ac46539c0bb1143a969712c59f77": {
     "intent": "ACCOUNT_LOGIN_SECURITY",
-    "confidence": 0.99,
-    "reasoning": "Customer is explicitly stating they are locked out of their account and requesting assistance to regain access.",
+    "confidence": 0.85,
+    "reasoning": "The customer is experiencing an authentication/login conflict between different Amazon platforms, preventing them from accessing a form.",
     "cached": false
   },
-  "2415a5b328bf5a722a21b7a7909af38e": {
-    "intent": "ORDER_TRACKING_DELAY",
+  "8ea19dd87757ebc6e958a6b94b983aeb": {
+    "intent": "DAMAGED_WRONG_ITEM",
     "confidence": 0.95,
-    "reasoning": "Customer is inquiring about a delay in their Prime delivery timeline compared to the guaranteed shipping speed.",
+    "reasoning": "The customer explicitly states they received the wrong item, which is the primary issue, despite the secondary mention of the return/refund process.",
     "cached": false
   },
-  "67bcd188315c5774b3e6a0b576800229": {
-    "intent": "REFUND_RETURN_INQUIRY",
-    "confidence": 0.99,
-    "reasoning": "Customer is asking about return eligibility and the 30-day return window policy.",
+  "df8422de537da6918c7ed1227576d9e5": {
+    "intent": "DAMAGED_WRONG_ITEM",
+    "confidence": 0.94,
+    "reasoning": "The customer received an incorrect item (Happy Holidays card instead of a birthday card) and is seeking a resolution after failed support interaction.",
     "cached": false
   },
-  "ca69a2b79ff8f09e8418bdf72954df65": {
-    "intent": "PRIME_MEMBERSHIP_BILLING",
-    "confidence": 0.99,
-    "reasoning": "Customer is disputing an unauthorized Prime auto-renewal charge and requesting a cancellation and refund.",
+  "da3d220bb5d8b65ba0b9169ae853b734": {
+    "intent": "ORDER_TRACKING_DELAY",
+    "confidence": 0.85,
+    "reasoning": "The customer is expressing frustration regarding the availability and shipping timeline of their order, which relates to delivery expectations.",
     "cached": false
   },
-  "ca68f19f4e9d0bd0babd4b0e41852b40": {
+  "a323abddf04454b768c96523a7ec50a5": {
+    "intent": "PRODUCT_TECH_SUPPORT",
+    "confidence": 0.94,
+    "reasoning": "Customer is seeking assistance with device functionality and feature usage on an Echo device.",
+    "cached": false
+  },
+  "f8791160a9a54a03ec4139f47d66c686": {
+    "intent": "ESCALATION_HIGH_RISK",
+    "confidence": 0.92,
+    "reasoning": "The customer is dealing with a potential fraud scenario involving digital merchandise and has already spent significant time with support without resolution, indicating high customer friction and a complex dispute.",
+    "cached": false
+  },
+  "a02842ccf727a08fb8327a79fef46acf": {
+    "intent": "ORDER_TRACKING_DELAY",
+    "confidence": 0.92,
+    "reasoning": "The customer is reporting a missing order and requesting a refund due to the inability to locate the package or receive support.",
+    "cached": false
+  },
+  "ab02927a161e36cd0f3c7f551c710d0f": {
     "intent": "DAMAGED_WRONG_ITEM",
     "confidence": 0.99,
-    "reasoning": "Customer reported receiving an incorrect item instead of the product they ordered.",
+    "reasoning": "The customer explicitly reports receiving the incorrect version of a product they ordered.",
     "cached": false
   },
-  "60a208c761ce3330c923d5ab89694771": {
-    "intent": "ORDER_TRACKING_DELAY",
-    "confidence": 0.97,
-    "reasoning": "Customer is reporting a package marked as delivered that has not been received, which falls under missing delivery inquiries.",
-    "cached": false
-  },
-  "84331444847d162d00c59355f0171f79": {
-    "intent": "PRIME_MEMBERSHIP_BILLING",
-    "confidence": 0.98,
-    "reasoning": "Customer is reporting a billing discrepancy regarding a Prime Video subscription charge.",
-    "cached": false
-  },
-  "2ff7ddb5e3314085e829e8f35b69cd78": {
+  "beebd48da1567678f51042cfb3e6a221": {
     "intent": "ESCALATION_HIGH_RISK",
-    "confidence": 0.99,
-    "reasoning": "The report involves a high-value item theft (> $100) and an explicit demand for immediate human supervisor intervention.",
+    "confidence": 0.92,
+    "reasoning": "The customer is expressing extreme frustration, using abusive language, and explicitly demanding an escalation point of contact, indicating a high-risk interaction requiring immediate human intervention.",
     "cached": false
   },
-  "91677cd754fbd8b739d043bcb1587833": {
+  "17cc161eac7254081a47b4fd52f69751": {
     "intent": "REFUND_RETURN_INQUIRY",
-    "confidence": 0.99,
-    "reasoning": "Customer is inquiring about the status of a refund for a returned item.",
+    "confidence": 0.95,
+    "reasoning": "The customer is expressing frustration regarding a missing refund for returned items and the quality of support received during that process.",
     "cached": false
   },
-  "11a6a0456d56f07fb00e88df37742f53": {
+  "a88203f7609f0e6c0d2f398dc69f4069": {
+    "intent": "OTHER_GENERAL",
+    "confidence": 0.85,
+    "reasoning": "The customer is expressing general frustration and dissatisfaction with service quality rather than inquiring about a specific order, return, or technical issue.",
+    "cached": false
+  },
+  "bd0348a4a555ed0e237ee5a2c57878ba": {
+    "intent": "ORDER_TRACKING_DELAY",
+    "confidence": 0.92,
+    "reasoning": "The customer is reporting a failed delivery and an unexpected cancellation/refund of an order that was expected by a specific date.",
+    "cached": false
+  },
+  "66875ae12f39bb006e111a47adda61f6": {
+    "intent": "OTHER_GENERAL",
+    "confidence": 0.85,
+    "reasoning": "The tweet is a vague complaint about lack of response and does not specify a particular order, account, or technical issue.",
+    "cached": false
+  },
+  "9fe6cc030443eafb24030a4bfca5b40f": {
+    "intent": "OTHER_GENERAL",
+    "confidence": 0.99,
+    "reasoning": "The tweet is a general expression of gratitude and feedback rather than a specific support request.",
+    "cached": false
+  },
+  "0cdd254514436e6420781cc801a4d334": {
     "intent": "REFUND_RETURN_INQUIRY",
-    "confidence": 0.99,
-    "reasoning": "Customer is inquiring about the status of a refund after completing a return drop-off.",
+    "confidence": 0.94,
+    "reasoning": "Customer is inquiring about the status of a return request process.",
     "cached": false
   },
-  "caa6eeb1622504635fefe924c03bef70": {
+  "55f65ab0ae7528a11920cb16273b1093": {
+    "intent": "OTHER_GENERAL",
+    "confidence": 0.85,
+    "reasoning": "The tweet expresses frustration with a previous interaction but does not specify a clear issue related to orders, returns, or technical support, falling into general feedback/complaint.",
+    "cached": false
+  },
+  "a772e1253dea25dcf74012c4d33b19d0": {
+    "intent": "ESCALATION_HIGH_RISK",
+    "confidence": 0.92,
+    "reasoning": "The customer is expressing significant frustration, explicitly requesting escalation, and using the term 'fraud', indicating a high-risk situation that requires human intervention beyond automated links.",
+    "cached": false
+  },
+  "4ddd48ec74277d497e3750dda2355351": {
+    "intent": "ACCOUNT_LOGIN_SECURITY",
+    "confidence": 0.97,
+    "reasoning": "Customer is experiencing persistent account lockout issues despite attempting a password reset.",
+    "cached": false
+  },
+  "f3e5ed7dbcdf3e5ca7ad307a1045a055": {
+    "intent": "DAMAGED_WRONG_ITEM",
+    "confidence": 0.94,
+    "reasoning": "The customer is reporting evidence of tampering or compromised packaging upon delivery, which falls under the category of receiving a damaged or incorrect shipment.",
+    "cached": false
+  },
+  "45be5b44f187af886bb867bada40a16c": {
+    "intent": "ORDER_TRACKING_DELAY",
+    "confidence": 0.85,
+    "reasoning": "The customer is inquiring about the location of a missing order and asking about the process for potential damage, which falls under order status and delivery concerns.",
+    "cached": false
+  },
+  "07e5b0fbec5abab4517ee1ac10433692": {
+    "intent": "ORDER_TRACKING_DELAY",
+    "confidence": 0.98,
+    "reasoning": "The customer is inquiring about a package that has missed its estimated delivery date and is expressing frustration regarding the lack of status updates.",
+    "cached": false
+  },
+  "43e8e8f8bfdb574d6f2bbd9f48d94264": {
+    "intent": "REFUND_RETURN_INQUIRY",
+    "confidence": 0.94,
+    "reasoning": "The customer is expressing dissatisfaction with the refund process, specifically claiming they are not receiving money back to their original payment method after receiving a counterfeit or incorrect item.",
+    "cached": false
+  },
+  "ea3e6d4f4c33a5c82f9ca00b22c08a83": {
+    "intent": "OTHER_GENERAL",
+    "confidence": 0.85,
+    "reasoning": "The tweet is vague and refers to an external URL without specifying a clear issue related to orders, returns, or technical support.",
+    "cached": false
+  },
+  "9375733fc1e988a50c2ed71c01e8d06f": {
+    "intent": "DAMAGED_WRONG_ITEM",
+    "confidence": 0.92,
+    "reasoning": "The customer is reporting a missing item from their order, which falls under the scope of incorrect or incomplete shipments.",
+    "cached": false
+  },
+  "b877b3e1a0e9dee339d152c63cece032": {
+    "intent": "ESCALATION_HIGH_RISK",
+    "confidence": 0.85,
+    "reasoning": "The tweet references a dispute involving compensation and legal action, indicating a high-friction situation that requires escalation.",
+    "cached": false
+  },
+  "d2552c428de9a03ce5fa3c6e5e092cd2": {
+    "intent": "DAMAGED_WRONG_ITEM",
+    "confidence": 0.99,
+    "reasoning": "The customer is reporting that the item they received (a mobile holder) arrived broken and provided an order ID.",
+    "cached": false
+  },
+  "26dd010dc47b9e576cec48a751fb9bf3": {
+    "intent": "ESCALATION_HIGH_RISK",
+    "confidence": 0.98,
+    "reasoning": "The customer reports receiving a tampered, high-value item and mentions filing a police report, indicating a severe issue requiring immediate escalation.",
+    "cached": false
+  },
+  "46b282da2d974125d0719577845fb900": {
+    "intent": "OTHER_GENERAL",
+    "confidence": 0.85,
+    "reasoning": "The tweet expresses general dissatisfaction and negative feedback regarding Amazon's services without specifying a particular order, billing issue, or technical problem.",
+    "cached": false
+  },
+  "6b3d466900bba016e35e439dada022fe": {
+    "intent": "ESCALATION_HIGH_RISK",
+    "confidence": 0.95,
+    "reasoning": "The customer is threatening legal action ('forced to go to the court') due to a delayed refund, which elevates the interaction to a high-risk escalation.",
+    "cached": false
+  },
+  "b1499b295c802c49e2721bf419404a3d": {
+    "intent": "PRIME_MEMBERSHIP_BILLING",
+    "confidence": 0.92,
+    "reasoning": "The customer is asking about a feature/limitation related to their Prime subscription service (Amazon Music).",
+    "cached": false
+  },
+  "d9c6fae7f327cb218947a22b91af6a3a": {
+    "intent": "REFUND_RETURN_INQUIRY",
+    "confidence": 0.94,
+    "reasoning": "The customer is referencing a promised timeline for a refund credit to their account.",
+    "cached": false
+  },
+  "97e6ac14ff7272f8560dc67c981e7e1a": {
+    "intent": "ESCALATION_HIGH_RISK",
+    "confidence": 0.92,
+    "reasoning": "The customer is questioning pricing practices and explicitly threatening legal action ('Should I sue you?'), which necessitates high-risk escalation.",
+    "cached": false
+  },
+  "53af6dbb83e523602a39da59f05b5446": {
+    "intent": "REFUND_RETURN_INQUIRY",
+    "confidence": 0.92,
+    "reasoning": "The customer is questioning the policy regarding return shipping costs and the process of returning an item.",
+    "cached": false
+  },
+  "f087032c4db5f283fe3117f0362eec75": {
     "intent": "ACCOUNT_LOGIN_SECURITY",
     "confidence": 0.99,
-    "reasoning": "Customer is explicitly stating they are locked out of their account and requesting assistance to regain access.",
+    "reasoning": "Customer reports unauthorized account access (hacking) and inability to sign in due to email address change.",
+    "cached": false
+  },
+  "a22b85d294e10c13d98ce76fa131d087": {
+    "intent": "PRODUCT_TECH_SUPPORT",
+    "confidence": 0.92,
+    "reasoning": "The customer is expressing frustration with a malfunctioning Fire Stick and asking for assistance regarding device usage on other platforms.",
+    "cached": false
+  },
+  "7a9bc3751bb9a5bcd9ae71e70381a62a": {
+    "intent": "ACCOUNT_LOGIN_SECURITY",
+    "confidence": 0.95,
+    "reasoning": "Customer is unable to access their account due to an unrecognized email error, which is a core account login issue.",
+    "cached": false
+  },
+  "8347b1ffde87460f1fb1d43a0aeb65ad": {
+    "intent": "ORDER_TRACKING_DELAY",
+    "confidence": 0.85,
+    "reasoning": "The customer is complaining about a lack of updates on their order status, which falls under tracking delays, despite the mention of potential fraud.",
+    "cached": false
+  },
+  "b4823d3527dc727c4a241bbd1999a8a7": {
+    "intent": "PRIME_MEMBERSHIP_BILLING",
+    "confidence": 0.92,
+    "reasoning": "The customer is expressing frustration regarding the loss of membership time and lack of communication, which pertains to their Prime subscription status.",
+    "cached": false
+  },
+  "5a07c551a004103ab94887af26f2de50": {
+    "intent": "OTHER_GENERAL",
+    "confidence": 0.95,
+    "reasoning": "The customer is asking about a contest or promotional quiz result, which does not fall into any of the specific support categories provided.",
+    "cached": false
+  },
+  "c0d1d7313ea37ae43ee0cfda1638b0fc": {
+    "intent": "ORDER_TRACKING_DELAY",
+    "confidence": 0.94,
+    "reasoning": "The customer is expressing concern about the delivery status of an order and referencing a history of lost or overdue packages.",
+    "cached": false
+  },
+  "f78cba33a4cacaaa78bc951abc54bbd1": {
+    "intent": "ORDER_TRACKING_DELAY",
+    "confidence": 0.99,
+    "reasoning": "Customer is inquiring about the current location and status of a package that is marked as out for delivery.",
     "cached": false
   }
 }
