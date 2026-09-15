@@ -5,20 +5,20 @@ This diagnostic report breaks down the primary error modes observed across the 1
 ## 1. Failure Mode 1: Semantic Boundary Blur (Returns vs. Tracking)
 **Stage Affected**: Intent Classification (`src/classify.py`)
 
-- **Customer Tweet**: "@AmazonHelp I don't think the package is damaged.Rather carrier communication issue. Why else the changing stories ?found out about return from email."
-- **Ground Truth Intent**: `DAMAGED_WRONG_ITEM`
-- **Predicted Intent**: `ORDER_TRACKING_DELAY` (Confidence: 0.85)
-- **Classifier Reasoning**: "The customer is expressing frustration regarding inconsistent communication and status updates from the carrier regarding their package delivery."
+- **Customer Tweet**: "@AmazonHelp It was delivered by amazon itself. How do I report it on the app? I seem to get lost in an endless loop when I go via that link"
+- **Ground Truth Intent**: `ORDER_TRACKING_DELAY`
+- **Predicted Intent**: `OTHER_GENERAL` (Confidence: 0.85)
+- **Classifier Reasoning**: "The customer is asking for navigation assistance on the app/website to report an issue, which does not specify the nature of the problem (e.g., damage vs. missing) and is primarily a request for technical guidance on using the platform."
 - **Root-Cause Hypothesis**: Inquiries mentioning 'return drop-off tracking' or 'courier drop-off receipt' share lexical features with both delivery tracking and refund processing. The classifier prioritized the tracking verb over the underlying refund objective.
 - **Mitigation**: Add hierarchical intent resolution or explicitly distinguish 'inbound customer returns tracking' from 'outbound merchant delivery tracking' in few-shot prompt exemplars.
 
 ## 2. Failure Mode 2: Over-Conservative Escalation on High Dollar Mentions
 **Stage Affected**: Escalation Policy Engine (`src/escalate.py`)
 
-- **Customer Tweet**: "@AmazonHelp Feedback? Are you kidding me? Where is my money and the package...bloddy idiots I am the prime customer and I want the shipment to be delivered rite now...I don't care about ur internal review...get me ur escalation point of contact to call me"
+- **Customer Tweet**: "@AmazonHelp I can't complete the form because it asks me to sign in, but because it's a consumer-side form it doesn't recognise my Vendor Central login."
 - **True Action**: `auto` (Eligible for automated self-service)
 - **Predicted Action**: `escalate`
-- **Escalation Reason**: "Mandatory policy: High-risk incident requiring senior human specialist."
+- **Escalation Reason**: "Mandatory policy: Account credentials & Two-Factor OTP require verified human channel."
 - **Root-Cause Hypothesis**: The rule-based policy enforces a strict $100 safety ceiling. When a customer routinely states their order total (e.g. '$112-9847291' or 'order of $120 shoes'), the regex parser triggers a financial exposure escalation even though the customer is only asking for standard tracking steps.
 - **Mitigation**: Distinguish claimed loss amounts ('stolen $500 laptop') from routine order ID numbers or purchase receipts using contextual entity extraction.
 

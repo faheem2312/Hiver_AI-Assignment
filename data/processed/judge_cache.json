@@ -223,5 +223,158 @@
     "overall_score": 5.0,
     "reasoning": "The reply is accurate, concise, and adheres strictly to standard Amazon return policy guidelines. It provides the customer with a clear, actionable path to verify their specific order status without making unauthorized promises.",
     "cached": false
+  },
+  "0313b1ddb854b563d34c503cfb4189ff": {
+    "groundedness": 5.0,
+    "correctness": 5.0,
+    "tone_and_empathy": 5.0,
+    "resolution_safety": 5.0,
+    "overall_score": 5.0,
+    "reasoning": "The agent correctly identifies that the issue requires account-specific intervention and provides the appropriate secure channel for resolution. The tone is professional and empathetic, and the response adheres to safety protocols by not requesting sensitive information in a public forum.",
+    "cached": false
+  },
+  "b3339f7bec8b7d5b978056929a61341e": {
+    "groundedness": 5.0,
+    "correctness": 5.0,
+    "tone_and_empathy": 5.0,
+    "resolution_safety": 5.0,
+    "overall_score": 5.0,
+    "reasoning": "The agent correctly identifies that account-specific shipping details cannot be accessed via public social media and provides a secure, official link for the customer to resolve the issue. The tone is professional, concise, and adheres to standard security protocols by not requesting sensitive information in the tweet.",
+    "cached": false
+  },
+  "264c3bd8d196c58021e750877c9520c3": {
+    "groundedness": 5.0,
+    "correctness": 5.0,
+    "tone_and_empathy": 5.0,
+    "resolution_safety": 5.0,
+    "overall_score": 5.0,
+    "reasoning": "The agent provides accurate, actionable steps to navigate the Amazon app, directly addressing the customer's confusion. The tone is professional and empathetic, and the response adheres to standard support protocols without creating any security or policy risks.",
+    "cached": false
+  },
+  "7f9ea1992f8ac481713a1a101379e25e": {
+    "groundedness": 5.0,
+    "correctness": 5.0,
+    "tone_and_empathy": 5.0,
+    "resolution_safety": 5.0,
+    "overall_score": 5.0,
+    "reasoning": "The agent provides a professional, empathetic response that acknowledges the customer's frustration without making unauthorized promises. By directing the user to the official support channel, the agent ensures the issue is handled securely and correctly.",
+    "cached": false
+  },
+  "dd5ca4413f3a8efc4ad0a1a715039c64": {
+    "groundedness": 5.0,
+    "correctness": 4.0,
+    "tone_and_empathy": 5.0,
+    "resolution_safety": 5.0,
+    "overall_score": 4.75,
+    "reasoning": "The agent addresses both customer concerns accurately and maintains a professional, empathetic tone. The response is safe and grounded in standard support practices, though it could be slightly improved by offering a direct link to Fire Stick troubleshooting steps rather than just asking for more information.",
+    "cached": false
+  },
+  "a241ca74256e238ee2825cb2741b602f": {
+    "groundedness": 5.0,
+    "correctness": 5.0,
+    "tone_and_empathy": 5.0,
+    "resolution_safety": 5.0,
+    "overall_score": 5.0,
+    "reasoning": "The agent provides a standard, accurate, and safe resolution by directing the customer to the self-service 'Your Orders' portal. The tone is empathetic and professional, addressing the customer's urgency while adhering to standard return and reorder procedures.",
+    "cached": false
+  },
+  "864a3f6646ad3d6dfed3f564e98949e6": {
+    "groundedness": 5.0,
+    "correctness": 4.0,
+    "tone_and_empathy": 5.0,
+    "resolution_safety": 5.0,
+    "overall_score": 4.75,
+    "reasoning": "The agent provides a professional, empathetic response that directs the customer to official resources without making unauthorized promises. While the reply is helpful, it could be slightly improved by acknowledging the customer's specific frustration regarding Prime availability claims rather than just focusing on the delivery date.",
+    "cached": false
+  },
+  "2a4211fa6dfc0d81e5ba92e5fa127c38": {
+    "groundedness": 5.0,
+    "correctness": 5.0,
+    "tone_and_empathy": 5.0,
+    "resolution_safety": 5.0,
+    "overall_score": 5.0,
+    "reasoning": "The agent provides accurate, actionable troubleshooting steps for playing podcasts on Echo devices while maintaining a helpful and concise tone. The response is safe, grounded in standard support practices, and directly addresses the customer's inquiry without unnecessary fluff.",
+    "cached": false
+  },
+  "583fe994670e7c4967ce1ba8a29cfa72": {
+    "groundedness": 5.0,
+    "correctness": 2.0,
+    "tone_and_empathy": 3.0,
+    "resolution_safety": 5.0,
+    "overall_score": 3.75,
+    "reasoning": "The reply is safe and grounded but fails to address the customer's specific frustration regarding a recurring error. By providing generic self-service links instead of offering to investigate the order discrepancy, the agent provides a poor customer experience that ignores the urgency of the complaint.",
+    "cached": false
+  },
+  "416647a9ac4fc9acd6df323ef3505e6d": {
+    "groundedness": 5.0,
+    "correctness": 5.0,
+    "tone_and_empathy": 5.0,
+    "resolution_safety": 5.0,
+    "overall_score": 5.0,
+    "reasoning": "The agent provides a professional, empathetic response that acknowledges the customer's frustration without making unauthorized promises. By directing the user to a secure support link, the agent ensures the issue is handled through the correct, safe channel while maintaining a concise and appropriate tone.",
+    "cached": false
+  },
+  "ac4679381515843d30cb79ca3e5b50fc": {
+    "groundedness": 5.0,
+    "correctness": 4.0,
+    "tone_and_empathy": 5.0,
+    "resolution_safety": 5.0,
+    "overall_score": 4.75,
+    "reasoning": "The agent provides a professional and empathetic response that adheres to standard support protocols without making unauthorized promises. While the reply is helpful, it could be improved by offering a direct link to the 'Your Orders' page or suggesting a DM for further investigation into the seller's cancellation.",
+    "cached": false
+  },
+  "856911256d3857d6858106f54972c4da": {
+    "groundedness": 5.0,
+    "correctness": 5.0,
+    "tone_and_empathy": 5.0,
+    "resolution_safety": 5.0,
+    "overall_score": 5.0,
+    "reasoning": "The agent provides accurate, policy-aligned guidance regarding the A-to-z Guarantee timeline for third-party sellers. The tone is professional and concise, and the response safely directs the customer to the appropriate self-service resource without overstepping security boundaries.",
+    "cached": false
+  },
+  "399298e7dbb45c056658ec008e4aea1e": {
+    "groundedness": 5.0,
+    "correctness": 5.0,
+    "tone_and_empathy": 5.0,
+    "resolution_safety": 5.0,
+    "overall_score": 5.0,
+    "reasoning": "The agent correctly identifies the standard 48-hour response window for third-party sellers and provides a direct, actionable link for further assistance. The tone is professional, empathetic, and concise, adhering to standard support protocols without creating any security or policy risks.",
+    "cached": false
+  },
+  "b55bc88fa159d1129eb83d3ca2d108cc": {
+    "groundedness": 5.0,
+    "correctness": 5.0,
+    "tone_and_empathy": 5.0,
+    "resolution_safety": 5.0,
+    "overall_score": 5.0,
+    "reasoning": "The agent provides a professional, empathetic response that acknowledges the customer's frustration while maintaining security protocols. By directing the user to the official support channel, the agent ensures the issue is handled safely and correctly without making unauthorized promises.",
+    "cached": false
+  },
+  "f6e1681de2965fc07ebd5e68d6e1fc69": {
+    "groundedness": 5.0,
+    "correctness": 5.0,
+    "tone_and_empathy": 5.0,
+    "resolution_safety": 5.0,
+    "overall_score": 5.0,
+    "reasoning": "The agent provides accurate, policy-compliant self-service instructions for a damaged package issue. The tone is professional and empathetic, and the response correctly directs the customer to the appropriate portal without requesting sensitive information.",
+    "cached": false
+  },
+  "3c1d77cc78b6d3957eb6605515183230": {
+    "groundedness": 5.0,
+    "correctness": 5.0,
+    "tone_and_empathy": 5.0,
+    "resolution_safety": 5.0,
+    "overall_score": 5.0,
+    "reasoning": "The agent provides a helpful, grounded response that aligns with historical resolutions by directing the user to account settings. The tone is empathetic and professional, and the advice provided is safe and actionable without overstepping security boundaries.",
+    "cached": false
+  },
+  "fba5bbf7a6ce44b978b66a868533cf46": {
+    "groundedness": 5.0,
+    "correctness": 5.0,
+    "tone_and_empathy": 5.0,
+    "resolution_safety": 5.0,
+    "overall_score": 5.0,
+    "reasoning": "The agent's response is perfectly grounded in the provided historical resolutions and addresses the customer's specific concern about international calling costs by directing them to the email/web contact link. The tone is professional and empathetic, and the response safely routes the user to the appropriate support channel without requesting sensitive information.",
+    "cached": false
   }
 }

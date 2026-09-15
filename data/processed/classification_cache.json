@@ -292,5 +292,17 @@
     "confidence": 0.99,
     "reasoning": "Customer is inquiring about the current location and status of a package that is marked as out for delivery.",
     "cached": false
+  },
+  "6ea3bfbd62f5bea2c5f6df7188a23b3e": {
+    "intent": "PRODUCT_TECH_SUPPORT",
+    "confidence": 0.96,
+    "reasoning": "Customer is reporting a technical malfunction with an Echo device and seeking troubleshooting assistance.",
+    "cached": false
+  },
+  "5f2efa76555e64c9640bdfe35d4809ff": {
+    "intent": "ACCOUNT_LOGIN_SECURITY",
+    "confidence": 0.98,
+    "reasoning": "The customer explicitly states they are locked out of their account and cannot access support channels due to this restriction.",
+    "cached": false
   }
 }
